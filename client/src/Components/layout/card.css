@@ -1,0 +1,28 @@
+.card__component {
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 11px 21px 0 hsla(180,9%,98%,.12), 0 6px 11px 0 rgba(0,0,0,.09);
+    border-radius: 8px;
+    cursor: pointer
+}
+
+.heading {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.para {
+    font-weight: 400;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 450px) {
+    .card__component {
+        margin: 10px 0px;
+    }
+}

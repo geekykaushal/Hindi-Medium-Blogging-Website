@@ -1,0 +1,119 @@
+.main__section {
+    width: 70%;;
+    margin: auto;
+    height: 100vh;
+    margin-top: 55px;
+    
+    /* clip-path: polygon(0% 0% , 100% 0% , 100% 0% , 0% 100%);
+    background: linear-gradient(to right , rgb(255, 255, 255) , rgb(3, 144, 209)); */
+    
+}
+
+.main__section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    margin-left: 180px;
+}
+
+.main__section h1 {
+    position: absolute;
+    transform: translate(-20px, 250px);
+    font-size: 3.5rem;
+    font-family:  'Helvetica Neue', 'sans-serif';
+
+}
+
+@media (max-width: 450px) {
+    .main__section {
+        height: 70vh;
+         
+    }
+
+    .main__section h1 {
+      font-size: 50px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    padding-left: 40px;
+    }
+
+
+    .main-heading__area {
+    padding-bottom: 120px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+
+    footer > div {
+        margin: 5px 0px;
+    }
+
+    .main__section img{
+        margin-left: 0px;
+        height: 50vh;
+    }
+}
+
+.card__area {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    margin-top: 50px;
+    position: static;
+}
+
+.card__hold {
+    position: absolute;
+}
+
+.main-heading__area {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading__area > div {
+    margin:0px 50px;
+}
+
+.feedback__form {
+    display: flex;
+    min-height: 500px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(208, 211, 218);
+}
+.follow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follow > div {
+    margin-left: 5px;
+}
+
+a {
+    padding: 0px 10px;
+}
+

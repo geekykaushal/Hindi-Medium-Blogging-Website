@@ -1,0 +1,40 @@
+.navlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navlink li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.navlink li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navlink li a:hover {
+  color: #10b4d1;
+}
+
+@media screen and (max-width: 480px) {
+  .navlink {
+    display: block;
+  }
+  .navlink li {
+    padding: 10px auto;
+    margin: 5px auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */

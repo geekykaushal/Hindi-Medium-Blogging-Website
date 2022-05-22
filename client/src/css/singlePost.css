@@ -1,0 +1,12 @@
+.main__container {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__container .img__section {
+  height: 250px;
+  width: 100%;
+}
+/*# sourceMappingURL=singlePost.css.map */

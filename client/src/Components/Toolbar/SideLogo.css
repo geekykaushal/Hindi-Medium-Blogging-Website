@@ -1,0 +1,24 @@
+.toogler__btn {
+    display: flex;
+    height: 25px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0px;
+    cursor: pointer;
+
+}
+
+.toogler__btn:focus {
+     outline: none
+}
+
+.toogle-btn__line {
+    width: 30px;
+    height:1px;
+    background: white;
+}
+

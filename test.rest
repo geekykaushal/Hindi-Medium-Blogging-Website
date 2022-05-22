@@ -1,0 +1,23 @@
+# POST http://localhost:5000/forgot/ HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email":"coderguy98@gmail.com"
+# }
+
+
+#Reset Password
+# POST http://localhost:5000/reset/a3c5d4c6b8dfad5b8620c935ac60c604e1e928b5 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "password":"test12"
+# }
+
+# #send file
+# POST http://localhost:5000/blog/
+# Content-Type: app
+
+
+
+GET http://localhost:5000/blog/5f2bb75b3e32f518a4810f83

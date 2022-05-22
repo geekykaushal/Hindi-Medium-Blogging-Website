@@ -1,0 +1,60 @@
+.header {
+    background-color: rgb(40, 67, 143);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+
+    li {
+        list-style: none;
+        
+    }
+
+    .header__logo {
+        color : white;
+        font-size: 25px;
+        margin-top: 3px;  
+    }
+
+    .side__logo {
+        .nav__icon {
+            visibility: hidden;
+        }
+    }
+
+}
+
+.sidebar__menu {
+    width: 300px;
+    top: 0;
+    margin-left: -400px;
+}
+
+.toggleClass {
+    margin-left: 0px;
+    width: 300px;
+    height: 93vh;
+}
+
+
+
+@media screen and (max-width: 480px) {
+   .header {
+       .side__logo {
+           .click__btn {
+               display:none;
+           }
+
+           .nav__icon {
+               visibility: visible;
+               font-size: 30px;
+               color: white;
+               margin-left: 100px;
+           }
+       }
+   }
+   
+  .styling {
+      background: linear-gradient(to right , rgb(59, 160, 255) , rgb(201, 201, 248))
+  }
+}
